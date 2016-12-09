@@ -18,6 +18,7 @@ AllCops:
     - 'db/seeds.rb'
     - 'doc/**/*'
     - 'log/**/*'
+    - 'spec/dummy/db/**/*'
     - 'tmp/**/*'
     - 'vendor/**/*'
     - 'workspace/**/*'
