@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class HealthChecksController < ActionController::Base
   def show
     table_name = Rails.application.config.health_check_table
