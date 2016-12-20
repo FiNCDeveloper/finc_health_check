@@ -2,6 +2,8 @@
 
 require 'silencer'
 
-Rails.application.configure do
-  config.middleware.swap Rails::Rack::Logger, Silencer::Logger, get: ['/health_check']
+unless Rails.env.development?
+  Rails.application.configure do
+    config.middleware.swap Rails::Rack::Logger, Silencer::Logger, get: ['/health_check']
+  end
 end
