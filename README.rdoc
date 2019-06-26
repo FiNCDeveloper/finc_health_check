@@ -1,3 +1,9 @@
+= DEPRECATED.
+
+= OUTDATED.
+
+= PLEASE DO NOT USE.
+
 = finc_health_check
 
 Internal gem at FiNC, inc for health check
